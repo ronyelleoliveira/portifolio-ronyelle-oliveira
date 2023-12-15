@@ -1,0 +1,177 @@
+@media (max-width: 828px) {
+    .header {
+        display: block;
+        flex-direction: column;
+        height: 120px;
+    }
+
+    .header .logotipo {
+        text-align: center;
+    }
+
+    .header .logotipo .image-logo {
+        width: 150px;
+        height: 100px;
+    }
+
+    .header .navigation {
+        width: 100%;
+    }
+
+    .header .navigation li,
+    a {
+        font-size: 1.4rem;
+    }
+
+    .container .content {
+        flex-direction: column-reverse;
+    }
+
+    .container .content .info {
+        width: 90%;
+    }
+
+    .container .content .info .name {
+        text-align: center;
+    }
+
+    .container .content .info .description {
+        text-align: center;
+        width: 100%;
+    }
+
+    .container .tecnologias {
+        margin: 0 10px 30px 10px;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .container .tecnologias .linguagens {
+        margin: 10px;
+    }
+
+    .container .tecnologias .linguagens h6 {
+        font-size: 2rem;
+    }
+
+    .container .projetos .image-projetos {
+        width: 50%;
+    }
+
+    .projetos .image-projetos .description-hover {
+        height: 180px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.3rem;
+    }
+
+}
+
+@media (max-width: 728px){
+    .container .tecnologias {
+        flex-direction: column;  
+    }
+
+    .container .tecnologias .linguagens .descripition-linguagem{
+        width: 270px;
+        right:50%;
+        padding: 10px;
+    }
+
+}
+
+@media (max-width: 468px) {
+
+    .container {
+        margin: 30px 10px 30px 10px;
+    }
+
+
+    .container .content .info .freelancer-status {
+        font-size: 1.3rem;
+        margin: 5px;
+    }
+
+    .container .content .info .name {
+        font-size: 1.5rem;
+        margin: 20px 5px;
+    }
+
+    .container .content .info .name span {
+        font-size: 2rem;
+        color: var(--primaria);
+        font-weight: 700;
+    }
+
+    .container .content .info .description {
+        font-size: 1.5rem;
+        margin: 5px;
+        line-height: 20px;
+    }
+
+    .container .content .image {
+        text-align: center;
+    }
+
+    .container .content .image-ronyelle {
+        width: 60%;
+    }
+
+    .container h3 {
+        font-size: 2.2rem;
+    }
+
+    .container .tecnologias .linguagens h6 {
+        font-size: 1.8rem;
+    }
+
+    .container .projetos .image-projetos {
+        width: 90%;
+    }
+
+    .projetos .image-projetos .description-hover {
+        height: 180px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 1.3rem;
+    }
+
+
+    .container .contato {
+        margin: 0 15px 0 15px;
+    }
+
+    .container .contato h3 {
+        font-size: 2.5rem;
+        text-align: center;
+
+    }
+
+    .container .contato .social {
+        width: 80%;
+    }
+
+    .container .contato .social .icon {
+        font-size: 3.5rem;
+    }
+
+    .container .contato .social ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 100%;
+    }
+
+    .footer-content {
+        margin: 15px;
+        width: 90%;
+    }
+
+    .footer-content .footer-description {
+        text-align: center;
+    }
+}
